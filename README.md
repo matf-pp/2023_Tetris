@@ -11,9 +11,9 @@ You can also run the app by installing it on your android device. To install it,
 
 
 People who worked on this project:
-Marko Petrovic - github.com/marko1684,
-Pavle Ponjavic - github.com/pavlee12,
-Ana Knezevic - github.com/anaknezeviic.
+Marko Petrovic - github.com/marko1684, 131/2020
+Pavle Ponjavic - github.com/pavlee12, 162/2020
+Ana Knezevic - github.com/anaknezeviic. 356/2022
 
 
 Thanks https://icons8.com
