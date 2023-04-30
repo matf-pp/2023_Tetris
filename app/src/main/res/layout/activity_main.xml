@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#534109"
+    tools:context=".MainActivity">
+
+    <com.example.tetrisgame.CanvasView
+        android:id="@+id/canvas"
+        android:layout_width="410dp"
+        android:layout_height="644dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="72dp"
+        android:alpha="0.5"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Best"
+        android:textColor="#FFFFFF"
+        android:textSize="23sp"
+        app:layout_constraintStart_toStartOf="@+id/score"
+        app:layout_constraintTop_toBottomOf="@+id/score" />
+
+    <TextView
+        android:id="@+id/l"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:alpha="0.5"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Score"
+        android:textColor="#FFFFFF"
+        android:textSize="23sp"
+        app:layout_constraintStart_toStartOf="@+id/s"
+        app:layout_constraintTop_toBottomOf="@+id/s" />
+
+    <TextView
+        android:id="@+id/score3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:alpha="0.5"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Level"
+        android:textColor="#FFFFFF"
+        android:textSize="23sp"
+        app:layout_constraintStart_toStartOf="@+id/l"
+        app:layout_constraintTop_toBottomOf="@+id/l" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="36dp"
+        android:alpha="0.5"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Next"
+        android:textColor="#FFFFFF"
+        android:textSize="23sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/button_left"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="8dp"
+        android:alpha="0.35"
+        android:background="#00000000"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/canvas"
+        app:srcCompat="@drawable/left" />
+
+    <ImageButton
+        android:id="@+id/button_right"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:alpha="0.35"
+        android:background="#00000000"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toEndOf="@+id/button_fast_down"
+        app:layout_constraintTop_toBottomOf="@+id/canvas"
+        app:srcCompat="@drawable/right" />
+
+    <ImageButton
+        android:id="@+id/button_rotate"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="8dp"
+        android:adjustViewBounds="false"
+        android:alpha="0.35"
+        android:background="#00000000"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toEndOf="@+id/button_right"
+        app:layout_constraintTop_toBottomOf="@+id/canvas"
+        app:srcCompat="@drawable/rotate" />
+
+    <ImageButton
+        android:id="@+id/button_fast_down"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:alpha="0.35"
+        android:background="#00000000"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toEndOf="@+id/button_left"
+        app:layout_constraintTop_toBottomOf="@+id/canvas"
+        app:srcCompat="@drawable/down" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
