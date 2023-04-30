@@ -9,6 +9,8 @@ The installation apk file is located in app/ppTetris.
 
 You can also run the app by installing it on your android device. To install it, download mentioned apk file and allow unknown source installation in settings. Then you can run it!
 
+The app was made for full hd phone screens, it is not fully responsive.
+
 
 People who worked on this project:
 Marko Petrovic - github.com/marko1684, 131/2020
