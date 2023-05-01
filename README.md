@@ -1,3 +1,6 @@
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/9024b3d922e648a9ab77a12e4e86b594)](https://app.codacy.com/gh/matf-pp/2023_Tetris?utm_source=github.com&utm_medium=referral&utm_content=matf-pp/2023_Tetris&utm_campaign=Badge_Grade)
+
 This is a group project.
 It is tetris android app in Kotlin made for university course.
 
