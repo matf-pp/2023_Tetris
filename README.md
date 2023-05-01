@@ -1,3 +1,7 @@
+# 2023_Tetris
+
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/ca3820053f8a46d8961e7f0da28ba3c7)](https://app.codacy.com/gh/matf-pp/2023_Tetris/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+
 This is a group project.
 It is tetris android app in Kotlin made for university course.
 
